@@ -14,6 +14,7 @@ public class LoginPageController {
     
     @FXML
     private TextField txtUsername;
+
     
     @FXML
     private PasswordField txtPassword;
