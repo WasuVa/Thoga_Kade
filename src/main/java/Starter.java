@@ -12,7 +12,7 @@ public class Starter extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("Thoga Kade");
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/login_page.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/Dashboard.fxml.fxml"))));
         stage.show();
     }
 }
